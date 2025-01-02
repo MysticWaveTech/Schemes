@@ -40,7 +40,37 @@
     <p>Encode your name for use in the app:</p>
     <div class="name-container">
         <p>Encoded Name:</p>
-        <p class="encoded-name">A-M-E-R-I-C-A-N</p>
+          <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .glowing-input {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff69b4; /* Pink text */
+            background-color: #000; /* Black background */
+            border: 2px solid #ff69b4;
+            border-radius: 10px;
+            padding: 10px 15px;
+            text-align: center;
+            text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 20px #ff69b4;
+            box-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4;
+            outline: none;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .glowing-input:focus {
+            box-shadow: 0 0 20px #ff69b4, 0 0 40px #ff69b4, 0 0 60px #ff69b4;
+        }
+    </style>
+
+    <input class="glowing-input" type="text" value="A-m-e">
+</body>
     </div>
 </body>
 </html>
